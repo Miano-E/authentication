@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    font-size: 1.1rem;  
+    font-family: 'Poppins', sans-serif;
+    background-color: #c9ccbe;
+}
+
+.navbar {
+    padding: 10px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    border: .1em solid black;
+    border-radius: .3em;
+    background-color: #33e0da;
+    padding: .2em;
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo:hover {
+    background-color: #56e3de;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #000;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    margin-bottom: .5em;
+}
+
+.container {
+    max-width: 370px;
+    margin: 0 auto;
+    padding: .8em;
+    box-shadow: .9em .8em .5em #2e4057;
+    border-radius: 1.0em;
+    background-color: #33e0da;
+}
+
+form label {
+    margin-bottom: .1em;
+    margin-left: .15em;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    margin-bottom: .95em;
+    padding: .7em;
+    border-radius: .6em;
+    border: 0.5px solid gray;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+.password-icon {
+    position: relative;
+    left: 18em;
+    bottom: 2.4em;
+    cursor: pointer; 
+}
+
+.confirmPassword-icon {
+    position: relative;
+    left: 18em;
+    bottom: 60px;
+    cursor: pointer; 
+}
+
+.submitbtn {
+    width: 80%;
+    padding: .38em;
+    border-radius: .6em;
+    border: none;
+    background-color: #000;
+    margin-left: 1.5em;
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: .28em;
+    font-family: 'Playfair Display', serif;;
+}
+
+.submitbtn:hover {
+    background-color: #252525;
+}
+
+.error {
+    margin: 0;
+    font-size: .9em;
+    color: red;
+    margin-bottom: .4em;
+    line-height: .2em;
+}
+
+.check {
+    margin-left: 2.15em;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0135f3;
+}
+
+a:hover {
+    color: #204ef5;
+    text-decoration: underline;
+}

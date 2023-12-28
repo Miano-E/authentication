@@ -1,0 +1,49 @@
+#togglePassword input[type="password"],
+#toggleconfirmPassword input[type="password"] {
+  display: inline-block; 
+  border: 0.5px solid gray;
+  width: 95%;
+  margin-bottom: .95em;
+  padding: .7em;
+  border-radius: .6em;
+}
+
+.password_container {
+  width: 370px;
+  position: relative;
+  font-size: 16px;
+}
+
+.password-input-container {
+  position: relative;
+  margin-bottom: 20px; /* Adjust as needed to control the spacing between input fields */
+}
+
+.password-input-container .fa-eye-slash {
+    position: absolute;
+    top: 61%;
+    transform: translateY(-10%);
+    right: 8%;
+    cursor: pointer;
+    color: gray; 
+}
+.password-input-container .fa-eye {
+  position: absolute;
+  top: 61%;
+  transform: translateY(-10%);
+  right: 8%;
+  cursor: pointer;
+  color: gray; /* Default color for the eye-slash icon */
+}
+
+.password-input-container .fa-eye {
+  color: rgb(87, 86, 86); /* Color for the eye icon */
+}
+
+.fa-eye-slash {
+  display: none; /* Initially hide the eye-slash icons */
+}
+
+.fa-eye {
+  display: none; /* Initially hide the eye icons */
+}
