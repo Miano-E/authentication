@@ -1,4 +1,4 @@
-#Secure Authentication System
+# Secure Authentication System
 
 ## Description
 
@@ -6,31 +6,31 @@ This project implements a robust authentication system utilizing sessions and co
 
 ## Features
 
-- Secure Authentication: User authentication is managed through secure sessions, enhancing the overall security of the system.
-- Enhanced User Experience: Cookies are utilized to improve the user experience, providing a streamlined and personalized interaction with the application.
-- Automatic Logout: To boost security, an automatic logout feature activates after 10 seconds of user inactivity, preventing unauthorized access to user accounts.
+- **Secure Authentication:** User authentication is managed through secure sessions, enhancing the overall security of the system.
+- **Enhanced User Experience:** Cookies are utilized to improve the user experience, providing a streamlined and personalized interaction with the application.
+- **Automatic Logout:** To boost security, an automatic logout feature activates after 10 seconds of user inactivity, preventing unauthorized access to user accounts.
 
 ## Technologies Used
 
- **Frontend:**
+**Frontend:**
   - HTML
   - CSS
 
- **Backend:**
+**Backend:**
   - PHP
   - MySQL
 
- **Tools:**
+**Tools:**
   - VS Code
 
- **Security Measures**
+**Security Measures:**
  - Sessions
  - Cookies
-   
 
 ## Installation
 
 To run this project locally, follow these steps:
+
 1. Clone the repository.
 2. Set up a local server environment (e.g., XAMPP).
 3. Ensure PHP is installed on your local server.
@@ -44,7 +44,16 @@ To run this project locally, follow these steps:
 3. Experience secure authentication with session management.
 4. Enjoy an enhanced user experience with the implemented cookie system.
 5. Observe the automatic logout feature after 10 seconds of inactivity.
-   
-##Contact
 
--Email: mianoedwin007@gmail.com
+## Contact
+
+- **Email:** mianoedwin007@gmail.com
+
+## Contributors
+
+- Edwin Miano
+
+## Live Demo
+
+Visit: https://miano.infinityfreeapp.com
+
